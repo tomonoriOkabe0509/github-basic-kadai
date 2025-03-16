@@ -1,0 +1,13 @@
+cd
+mkdir git_challenge
+cd git_challenge
+git init
+git add hello_world.txt
+git commit-m "hello_world.txtを追加"
+git status
+git add hello_world.txt
+git commit -m"日本語訳を追記"
+git status
+git log --oneline
+757c2fb (HEAD -> main) 日本語訳を追記
+7075ba5 hello_world.txtを追加
